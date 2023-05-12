@@ -1,0 +1,35 @@
+{
+  "Records": [
+    {
+      "messageId": "4bdc6b8a-fe2b-47a9-8bf0-fe7d672a654c",
+      "receiptHandle": "XXX",
+      "body": {
+        "bike": {
+          "bike_id": "a494689e-f848-4287-b99c-2cb66b1e1383",
+          "lat": 33.43089295,
+          "lon": -111.93308258333333,
+          "is_disabled": 1,
+          "is_reserved": 0,
+          "timestamp": "20230512_11:03:29",
+          "tags": {
+            "is_disabled": 1,
+            "is_reserved": 0,
+            "timestamp": "20230512_11:03:29"
+          }
+        }
+      },
+      "attributes": {
+        "ApproximateReceiveCount": "7",
+        "AWSTraceHeader": "XXX",
+        "SentTimestamp": "1683889410292",
+        "SenderId": "XXX:gbfs-parser-1fef3e3",
+        "ApproximateFirstReceiveTimestamp": "1683889410292"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "73adc1ea2a0491593b13fb6b060acaa2",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:eu-west-3:XXX:gbfs-queue-37324c8",
+      "awsRegion": "eu-west-3"
+    }
+  ]
+}
