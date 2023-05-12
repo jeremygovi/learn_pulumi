@@ -1,0 +1,13 @@
+{
+    "version": "0",
+    "id": "2cf2a227-99fc-b9b1-1ce5-82e7f4e00aed",
+    "detail-type": "Scheduled Event",
+    "source": "aws.events",
+    "account": "XXX",
+    "time": "2023-05-12T10:17:53Z",
+    "region": "eu-west-3",
+    "resources": [
+      "arn:aws:events:eu-west-3:XXX:rule/trigger-every-minute-rule-d14c1c0"
+    ],
+    "detail": {}
+  }
