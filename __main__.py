@@ -14,7 +14,7 @@ alarm_enabled = False
 ##################
 bucket = aws.s3.Bucket(
     "poc-gbfs-payload",
-    bucket="poc-gbfs-payload",
+    # bucket="poc-gbfs-payload",
     acl="private",
     versioning=aws.s3.BucketVersioningArgs(
         enabled=True,
