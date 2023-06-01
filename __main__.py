@@ -155,7 +155,7 @@ alarm_email = aws.sns.TopicSubscription(
     "jgovi-email",
     topic=alarm_topic.arn,
     protocol="email",
-    endpoint="jeremygovi@gmail.com",
+    endpoint="xxx@gmail.com",
 )
 
 ############################
